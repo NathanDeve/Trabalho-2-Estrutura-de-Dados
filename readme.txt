@@ -1,17 +1,16 @@
-INSTRUÇÕES DE EXECUÇÃO (SEMINÁRIO AED-I)
-
+ALGORITMOS DE ORDENAÇÃO - AED I
+Grupo: [Seu Nome, Nome 2, Nome 3]
 Linguagem: C (Padrão C99)
-Compilador: gcc
 
-1. Para compilar o código que contém os algoritmos e o mini-experimento:
-gcc ordenacao.c -o executavel -lm
+INSTRUÇÕES DE EXECUÇÃO
 
-(Nota: A flag -lm é incluída para compatibilidade futura com 'math.h', se necessário).
+O arquivo 'ordenacao.c' contém os 5 algoritmos de ordenação e 
+a função 'main' que executa o Mini-Experimento (Roteiro 8) 
+para n=1001.
 
-2. Para executar o mini-experimento (Roteiro 8):
+1. Para compilar o código (em ambiente Linux/Mac ou Windows com GCC):
+gcc ordenacao.c -o executavel
+
+2. Para executar o Mini-Experimento e gerar as 5 tabelas:
 ./executavel
-
-3. Para executar a demonstração ao vivo (Roteiro 3):
-(Opcional, se você criar um 'demo.c' separado)
-gcc demo.c -o demo
-./demo
+(No Windows: executavel.exe)
